@@ -108,10 +108,7 @@ extern "C" {
 //      (JNIEnv *env, jobject delaunayBuildObj, jobject delaunayDataObj)
     (JNIEnv *env, jobject delaunayDataObj)
     {
-        printf("In the native function!\n"); // new
-        return delaunayDataObj; // new
       // debug
-      /* BEGIN COMMENTING OUT FOR COMPILATION
      
       //  std:: printf("entering DelaunayBuilder_Apply\n");
 
@@ -217,8 +214,6 @@ extern "C" {
         // Returns the DelaunayData object
         return delaunayDataObj;
       }
-    END COMMENTING OUT FOR COMPILATION
-    */
     }
 
 #ifdef __cplusplus
